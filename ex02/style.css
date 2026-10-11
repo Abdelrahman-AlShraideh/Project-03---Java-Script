@@ -1,0 +1,40 @@
+body{
+ text-align: center;
+ background-color: lightblue;
+ padding: 30px;
+}
+
+h1 {
+ color: black;
+}
+
+p {
+ font-size: 18px;
+ color: gray;
+}
+
+button {
+ padding: 10px 16px;
+ margin: 6px;
+ border: 2px solid black;
+ border-radius: 6px;
+ background-color: gray;
+ color: white;
+ cursor: pointer;
+}
+
+#box {
+ margin:25px auto;
+ padding: 25px;
+ max-width: 350px;
+ background-color: gray;
+ border: 2px solid black ;
+ border-radius: 10px;
+ 
+ 
+}
+#box.active { 
+background-color:blue;
+border-color: pink;
+color: white;
+}
